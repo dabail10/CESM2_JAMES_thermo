@@ -13,8 +13,8 @@ begin
 ; new - prev
 
 wkdir = "./"
-case_new = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snowmin"
-case_prev  = "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snowmin"
+case_new = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snow1"
+case_prev  = "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snow1"
 path_prev = "/glade/p/cesm/pcwg/dbailey/archive/" + case_prev + "/ocn/proc/tseries/month_1/"
 path_new = "/glade/p/cesm/pcwg/dbailey/archive/" + case_new + "/ocn/proc/tseries/month_1/"
 dir = path_prev
@@ -42,8 +42,8 @@ SH_Pcntrs(0,:)=(/0,4,8,12,16,18,20,22,24,26,28,30,32,34/) ; aice
   ;--------------------------------------------------------------------
   ; Construct file name
   ;--------------------------------------------------------------------
-    new_file_name1 = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snowmin.pop.h."+var_to_plot(k)+".000101-005112.nc"
-    prev_file_name1= "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snowmin.pop.h."+var_to_plot(k)+".000101-005012.nc"
+    new_file_name1 = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snow1.pop.h."+var_to_plot(k)+".000101-005112.nc"
+    prev_file_name1= "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snow1.pop.h."+var_to_plot(k)+".000101-005012.nc"
 
   ;--------------------------------------------------------------------
   ; Read variables into memory

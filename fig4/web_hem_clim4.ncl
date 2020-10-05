@@ -9,8 +9,8 @@ begin
 
 
 ncases1 = 2
-case1a = "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snowmin"
-case1b = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snowmin"
+case1a = "b.e21.B1850.f09_g17.CMIP6-piControl.001_bl99snow1"
+case1b = "b.e21.B1850.f09_g17.CMIP6-piControl.001_snow1"
 
 f1a = addfile("ice_vol_"+case1a+"_1-50.nc","r")
 f1b = addfile("ice_vol_"+case1b+"_1-50.nc","r")
